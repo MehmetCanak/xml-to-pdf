@@ -1,0 +1,13 @@
+{
+    "name": "w10/xslt",
+    "type": "library",
+    "authors": [
+        {
+            "name": "y"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "barryvdh/laravel-dompdf": "2.0.x-dev"
+    }
+}
