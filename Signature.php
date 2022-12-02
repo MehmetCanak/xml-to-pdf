@@ -3,9 +3,9 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
-class Signature implements XmlSerializable
+class Signature implements XmlDeserializable
 {
     private $id;
     private $unitCode = 'VKN_TCKN';

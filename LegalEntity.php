@@ -3,9 +3,9 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
-class LegalEntity implements XmlSerializable
+class LegalEntity implements XmlDeserializable
 {
     private $registrationName;
     private $companyId;

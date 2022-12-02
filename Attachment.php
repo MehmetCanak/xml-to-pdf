@@ -4,11 +4,11 @@
 
 use Exception;
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
 use InvalidArgumentException;
 
-class Attachment implements XmlSerializable
+class Attachment implements XmlDeserializable
 {
     private $filePath;
 

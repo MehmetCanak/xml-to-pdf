@@ -3,11 +3,11 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
 use InvalidArgumentException;
 
-class TaxTotal implements XmlSerializable
+class TaxTotal implements XmlDeserializable
 {
     private $taxAmount;
     private $taxSubTotals;

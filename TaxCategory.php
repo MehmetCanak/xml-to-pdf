@@ -3,11 +3,11 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
 use InvalidArgumentException;
 
-class TaxCategory implements XmlSerializable
+class TaxCategory implements XmlDeserializable
 {
     private $id;
     private $idAttributes = [

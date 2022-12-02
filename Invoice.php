@@ -3,7 +3,6 @@
 
 use Sabre\Xml\Writer;
 use Sabre\Xml\Reader;
-use Sabre\Xml\XmlSerializable;
 use Sabre\Xml\XmlDeserializable;
 
 use DateTime;
@@ -799,11 +798,21 @@ class Invoice implements XmlDeserializable
         
     }
 
-    public function xmlDeserialize(Reader $reader)
+    static public function xmlDeserialize(Reader $reader)
     {
-        $this->ExtensionContent = $reader->parseInnerTree();
+        $ınvoice = new self();
 
+        // Borrowing a parser from the KeyValue class.
+        $keyValue = Sabre\Xml\Element\KeyValue::xmlDeserialize($reader);
 
+        if (isset($keyValue[ Schema::CBC . 'UBLVersionID'])) {
+            $ınvoice->UBLVersionID = $keyValue[Schema::CBC . 'UBLVersionID'];
+        }
+        if (isset($keyValue[Schema::CBC . 'CustomizationID'])) {
+            $ınvoice->customizationID = $keyValue[Schema::CBC . 'CustomizationID'];
+        }
+
+        return $ınvoice;
     }
 
 }

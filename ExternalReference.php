@@ -3,9 +3,9 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
-class ExternalReference implements XmlSerializable
+class ExternalReference implements XmlDeserializable
 {
     private $uri;
 

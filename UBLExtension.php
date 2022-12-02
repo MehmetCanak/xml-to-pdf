@@ -4,9 +4,9 @@
 
 use Sabre\Xml\Writer;
 use Sabre\Xml\Reader;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
-class UBLExtension implements XmlSerializable
+class UBLExtension implements XmlDeserializable
 {
     private $ExtensionContent;
 

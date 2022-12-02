@@ -3,10 +3,10 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 use DateTime;
 
-class Delivery implements XmlSerializable
+class Delivery implements XmlDeserializable
 {
     private $actualDeliveryDate;
     private $deliveryLocation;

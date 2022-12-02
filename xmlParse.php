@@ -31,29 +31,12 @@ class Parse
             'http://www.altova.com/samplexml/other-namespace' => 'n4',
             'http://www.w3.org/2001/XMLSchema-instance' => 'xsi',
         ];
+        // $xmlService->mapValueObject('Invoice', Invoice::class);
 
-        $reader = new Reader();
-        $invoice = new Invoice();
-        var_dump($reader);
-        die;
-        echo "XML: ";
-
-        // Borrowing a parser from the KeyValue class.
-        $keyValue = KeyValue::xmlDeserialize($reader);
-
-        if (isset($keyValue[Schema::CBC.'UBLVersionID'])) {
-            $invoice->UBLVersionID = $keyValue[Schema::CBC.'UBLVersionID'];
-        }
-        if (isset($keyValue['{http://example.org/books}author'])) {
-            $invoice->customizationID = $keyValue[Schema::CBC.'CustomizationID'];
-        }
-
-        $f = fopen("file5.txt", "w");
-        fwrite($f, print_r($invoice, true));
+        print_r($xmlService->parse($xml));
+        $f = fopen("file2.txt", "w");
+        fwrite($f, print_r($xmlService->parse($xml), true));
         fclose($f);
-        var_dump($invoice);
-
-        die;
 
         die;
 
@@ -64,14 +47,14 @@ class Parse
         // fwrite($f, print_r($service->parse($xml), true));
         // fclose($f);
 
-        $reader = new Sabre\Xml\Reader();
-        $reader->xml($xml);
-        $result = $reader->parse();
-        $f3 = fopen("file3.txt", "w");
-        fwrite($f3, print_r($result, true));
-        fclose($f3);
-        echo "done";
-        die;
+        // $reader = new Sabre\Xml\Reader();
+        // $reader->xml($xml);
+        // $result = $reader->parse();
+        // $f3 = fopen("file3.txt", "w");
+        // fwrite($f3, print_r($result, true));
+        // fclose($f3);
+        // echo "done";
+        // die;
     }
 }
 

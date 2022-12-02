@@ -4,11 +4,11 @@
 
 use Exception;
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
 use InvalidArgumentException;
 
-class InvoiceDocumentReference implements XmlSerializable
+class InvoiceDocumentReference implements XmlDeserializable
 {
     
         private $id;

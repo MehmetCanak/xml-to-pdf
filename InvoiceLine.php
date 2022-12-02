@@ -3,9 +3,9 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
-class InvoiceLine implements XmlSerializable
+class InvoiceLine implements XmlDeserializable
 {
     private $id;
     private $unitCode;

@@ -2,12 +2,12 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
 use DateTime;
 use InvalidArgumentException;
 
-class PartyName implements XmlSerializable
+class PartyName implements XmlDeserializable
 {
 
     private $name = '';

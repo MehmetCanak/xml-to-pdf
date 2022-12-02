@@ -3,9 +3,9 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
-class Address implements XmlSerializable
+class Address implements XmlDeserializable
 {
     private $streetName;
     private $additionalStreetName;

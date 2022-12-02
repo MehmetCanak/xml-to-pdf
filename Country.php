@@ -3,9 +3,9 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
-class Country implements XmlSerializable
+class Country implements XmlDeserializable
 {
     private $identificationCode;
     private $name;

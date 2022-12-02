@@ -3,11 +3,11 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
 use InvalidArgumentException;
 
-class PartyTaxScheme implements XmlSerializable
+class PartyTaxScheme implements XmlDeserializable
 {
     private $registrationName;
     private $companyId;

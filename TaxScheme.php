@@ -3,9 +3,9 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
-class TaxScheme implements XmlSerializable
+class TaxScheme implements XmlDeserializable
 {
     private $id;
     private $taxTypeCode;

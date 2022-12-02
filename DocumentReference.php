@@ -3,9 +3,9 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
-class DocumentReference implements XmlSerializable
+class DocumentReference implements XmlDeserializable
 {
     private $id;
     private $issueDate;

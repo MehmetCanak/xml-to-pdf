@@ -3,12 +3,12 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
 use DateTime;
 use InvalidArgumentException;
 
-class SignatoryParty implements XmlSerializable
+class SignatoryParty implements XmlDeserializable
 {
 
     private $partyIdentification;

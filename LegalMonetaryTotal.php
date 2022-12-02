@@ -3,9 +3,9 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
-class LegalMonetaryTotal implements XmlSerializable
+class LegalMonetaryTotal implements XmlDeserializable
 {
     private $lineExtensionAmount;
     private $taxExclusiveAmount;

@@ -3,10 +3,10 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 use InvalidArgumentException;
 
-class Person implements XmlSerializable
+class Person implements XmlDeserializable
 {
     private $firstName;
     private $familyName;

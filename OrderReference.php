@@ -3,9 +3,9 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
-class OrderReference implements XmlSerializable
+class OrderReference implements XmlDeserializable
 {
     private $id;
     private $salesOrderId;

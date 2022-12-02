@@ -3,9 +3,9 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
-class PaymentTerms implements XmlSerializable
+class PaymentTerms implements XmlDeserializable
 {
     private $note;
     private $settlementDiscountPercent;

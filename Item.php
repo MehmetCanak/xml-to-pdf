@@ -3,9 +3,9 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
-class Item implements XmlSerializable
+class Item implements XmlDeserializable
 {
     private $description;
     private $name;

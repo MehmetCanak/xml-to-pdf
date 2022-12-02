@@ -3,10 +3,10 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 use DateTime;
 
-class PaymentMeans implements XmlSerializable
+class PaymentMeans implements XmlDeserializable
 {
     private $paymentMeansCode = 1;
     private $paymentMeansCodeAttributes = [

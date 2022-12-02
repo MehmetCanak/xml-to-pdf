@@ -3,9 +3,9 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
-class Price implements XmlSerializable
+class Price implements XmlDeserializable
 {
     private $priceAmount;
     private $unitCode = UnitCode::UNIT;

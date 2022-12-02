@@ -3,9 +3,9 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
-class FinancialInstitutionBranch implements XmlSerializable
+class FinancialInstitutionBranch implements XmlDeserializable
 {
     private $id;
 

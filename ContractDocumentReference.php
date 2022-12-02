@@ -3,9 +3,9 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
-class ContractDocumentReference implements XmlSerializable
+class ContractDocumentReference implements XmlDeserializable
 {
     private $id;
 

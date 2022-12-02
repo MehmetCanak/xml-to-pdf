@@ -3,11 +3,11 @@
 
 
 use Sabre\Xml\Writer;
-use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 use DateTime;
 use InvalidArgumentException;
 
-class InvoicePeriod implements XmlSerializable
+class InvoicePeriod implements XmlDeserializable
 {
     private $startDate;
     private $endDate;
