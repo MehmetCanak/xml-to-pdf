@@ -236,7 +236,7 @@
 					
 					
 					</style>
-				<title>e-Belge</title>
+				<title>e-Belge<?php echo "php" ?></title>
 			</head>
 			<body 
 				style=" margin-right=0.6in; margin-top=0.79in; margin-bottom=0.79in; width:575px;"   >
@@ -746,7 +746,7 @@
 							<tr align="left">
 								<td align="left" valign="top" id="ettnTable">
 									<span style="font-weight:bold; ">
-										<xsl:text>ETTN:&#160;</xsl:text>
+										<xsl:text>ETTN :&#160;</xsl:text>
 									</span>
 									<xsl:for-each select="n1:Invoice/cbc:UUID">
 										<xsl:apply-templates/>

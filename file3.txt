@@ -1,0 +1,1434 @@
+Array
+(
+    [name] => {urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice
+    [value] => Array
+        (
+            [0] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2}UBLExtensions
+                    [value] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2}UBLExtension
+                                    [value] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2}ExtensionContent
+                                                    [value] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [name] => {http://www.altova.com/samplexml/other-namespace}auto-generated_for_wildcard
+                                                                    [value] => 
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}UBLVersionID
+                    [value] => 2.1
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}CustomizationID
+                    [value] => TR1.2
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}ProfileID
+                    [value] => TICARIFATURA
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}ID
+                    [value] => SRM2012000086985
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}CopyIndicator
+                    [value] => false
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}UUID
+                    [value] => F47AC10B-58CC-4372-A567-0E02B2C3D479
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}IssueDate
+                    [value] => 2012-08-04
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}IssueTime
+                    [value] => 07:47:00
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}InvoiceTypeCode
+                    [value] => OZELMATRAH
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [10] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Note
+                    [value] => Bakiye=0, Bakiye bilgi amaçlıdır.... KDV K.23. maddesine göre özel matrah şekli uygulanmıştır.
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [11] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Note
+                    [value] => KDV Dahil
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [12] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}DocumentCurrencyCode
+                    [value] => TRY
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [13] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}LineCountNumeric
+                    [value] => 1
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [14] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}Signature
+                    [value] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}ID
+                                    [value] => 1288331521
+                                    [attributes] => Array
+                                        (
+                                            [schemeID] => VKN_TCKN
+                                        )
+
+                                )
+
+                            [1] => Array
+                                (
+                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}SignatoryParty
+                                    [value] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}PartyIdentification
+                                                    [value] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}ID
+                                                                    [value] => 1288331521
+                                                                    [attributes] => Array
+                                                                        (
+                                                                            [schemeID] => VKN
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}PostalAddress
+                                                    [value] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}StreetName
+                                                                    [value] => Papatya Caddesi Yasemin Sokak
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [1] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}BuildingNumber
+                                                                    [value] => 21
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [2] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}CitySubdivisionName
+                                                                    [value] => Beşiktaş
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [3] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}CityName
+                                                                    [value] => İstanbul
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [4] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}PostalZone
+                                                                    [value] => 34100
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [5] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}Country
+                                                                    [value] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Name
+                                                                                    [value] => Türkiye
+                                                                                    [attributes] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                        )
+
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}DigitalSignatureAttachment
+                                    [value] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}ExternalReference
+                                                    [value] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}URI
+                                                                    [value] => #Signature
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [15] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}AccountingSupplierParty
+                    [value] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}Party
+                                    [value] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}PartyIdentification
+                                                    [value] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}ID
+                                                                    [value] => 1888888888
+                                                                    [attributes] => Array
+                                                                        (
+                                                                            [schemeID] => VKN
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}PartyName
+                                                    [value] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Name
+                                                                    [value] => ..... Tobacco Exports
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [2] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}PostalAddress
+                                                    [value] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}ID
+                                                                    [value] => 
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [1] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}CitySubdivisionName
+                                                                    [value] => 
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [2] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}CityName
+                                                                    [value] => Adana
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [3] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}Country
+                                                                    [value] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Name
+                                                                                    [value] => Türkiye
+                                                                                    [attributes] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                        )
+
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [3] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}PartyTaxScheme
+                                                    [value] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}TaxScheme
+                                                                    [value] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Name
+                                                                                    [value] => Büyük Mükellefler
+                                                                                    [attributes] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                        )
+
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [4] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}PartyLegalEntity
+                                                    [value] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}HeadOfficeParty
+                                                                    [value] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}PartyIdentification
+                                                                                    [value] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}ID
+                                                                                                    [value] => 1888888888
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                            [schemeID] => VKN
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                        )
+
+                                                                                    [attributes] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}PartyName
+                                                                                    [value] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Name
+                                                                                                    [value] => ..... Tobacco Exports Merkez
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                        )
+
+                                                                                    [attributes] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}PostalAddress
+                                                                                    [value] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}ID
+                                                                                                    [value] => 2806632739
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Room
+                                                                                                    [value] => 18
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}StreetName
+                                                                                                    [value] => ... Plaza, Meydan Sokak
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                            [3] => Array
+                                                                                                (
+                                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}BlockName
+                                                                                                    [value] => B
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                            [4] => Array
+                                                                                                (
+                                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}BuildingNumber
+                                                                                                    [value] => 3
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                            [5] => Array
+                                                                                                (
+                                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}CitySubdivisionName
+                                                                                                    [value] => Maslak
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                            [6] => Array
+                                                                                                (
+                                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}CityName
+                                                                                                    [value] => İstanbul
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                            [7] => Array
+                                                                                                (
+                                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}PostalZone
+                                                                                                    [value] => 34398
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                            [8] => Array
+                                                                                                (
+                                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}Country
+                                                                                                    [value] => Array
+                                                                                                        (
+                                                                                                            [0] => Array
+                                                                                                                (
+                                                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Name
+                                                                                                                    [value] => Türkiye
+                                                                                                                    [attributes] => Array
+                                                                                                                        (
+                                                                                                                        )
+
+                                                                                                                )
+
+                                                                                                        )
+
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                        )
+
+                                                                                    [attributes] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [3] => Array
+                                                                                (
+                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}PartyTaxScheme
+                                                                                    [value] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}TaxScheme
+                                                                                                    [value] => Array
+                                                                                                        (
+                                                                                                            [0] => Array
+                                                                                                                (
+                                                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Name
+                                                                                                                    [value] => Büyük Mükellefler
+                                                                                                                    [attributes] => Array
+                                                                                                                        (
+                                                                                                                        )
+
+                                                                                                                )
+
+                                                                                                        )
+
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                        )
+
+                                                                                    [attributes] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [4] => Array
+                                                                                (
+                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}PartyLegalEntity
+                                                                                    [value] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}CompanyID
+                                                                                                    [value] => 455695/403277
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}CorporateRegistrationScheme
+                                                                                                    [value] => Array
+                                                                                                        (
+                                                                                                            [0] => Array
+                                                                                                                (
+                                                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}ID
+                                                                                                                    [value] => Ticaret Odası
+                                                                                                                    [attributes] => Array
+                                                                                                                        (
+                                                                                                                        )
+
+                                                                                                                )
+
+                                                                                                        )
+
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                        )
+
+                                                                                    [attributes] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [5] => Array
+                                                                                (
+                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}Contact
+                                                                                    [value] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Telephone
+                                                                                                    [value] => (212) 3678000
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                        )
+
+                                                                                    [attributes] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                        )
+
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [16] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}AccountingCustomerParty
+                    [value] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}Party
+                                    [value] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}PartyIdentification
+                                                    [value] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}ID
+                                                                    [value] => 39586528950
+                                                                    [attributes] => Array
+                                                                        (
+                                                                            [schemeID] => TCKN
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}PartyName
+                                                    [value] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Name
+                                                                    [value] => KANNAT Bakkaliyesi
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [2] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}PostalAddress
+                                                    [value] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}ID
+                                                                    [value] => 2806632739
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [1] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}StreetName
+                                                                    [value] => 34 Sok.
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [2] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}BuildingNumber
+                                                                    [value] => 12
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [3] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}CitySubdivisionName
+                                                                    [value] => Seyhan
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [4] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}CityName
+                                                                    [value] => Adana
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [5] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}District
+                                                                    [value] => Ziyapaşa Mah.
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [6] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}Country
+                                                                    [value] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Name
+                                                                                    [value] => Türkiye
+                                                                                    [attributes] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                        )
+
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [3] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}PartyTaxScheme
+                                                    [value] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}TaxScheme
+                                                                    [value] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Name
+                                                                                    [value] => Ziyapaşa
+                                                                                    [attributes] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                        )
+
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [4] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}PartyLegalEntity
+                                                    [value] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}CompanyID
+                                                                    [value] => 01010989P
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [1] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}CorporateRegistrationScheme
+                                                                    [value] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}ID
+                                                                                    [value] => TAPDK
+                                                                                    [attributes] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                        )
+
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [5] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}Contact
+                                                    [value] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Telephone
+                                                                    [value] => (322) 4573244
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [6] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}Person
+                                                    [value] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}FirstName
+                                                                    [value] => Hamza
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [1] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}FamilyName
+                                                                    [value] => Pekin
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [17] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}TaxTotal
+                    [value] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}TaxAmount
+                                    [value] => 4.01
+                                    [attributes] => Array
+                                        (
+                                            [currencyID] => TRY
+                                        )
+
+                                )
+
+                            [1] => Array
+                                (
+                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}TaxSubtotal
+                                    [value] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}TaxableAmount
+                                                    [value] => 22.28
+                                                    [attributes] => Array
+                                                        (
+                                                            [currencyID] => TRY
+                                                        )
+
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}TaxAmount
+                                                    [value] => 4.01
+                                                    [attributes] => Array
+                                                        (
+                                                            [currencyID] => TRY
+                                                        )
+
+                                                )
+
+                                            [2] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Percent
+                                                    [value] => 18
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [3] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}TaxCategory
+                                                    [value] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}TaxExemptionReasonCode
+                                                                    [value] => 806
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [1] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}TaxExemptionReason
+                                                                    [value] => Tütün Mamülleri ve Bazı Alkollü İçkiler
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [2] => Array
+                                                                (
+                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}TaxScheme
+                                                                    [value] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Name
+                                                                                    [value] => KDV
+                                                                                    [attributes] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}TaxTypeCode
+                                                                                    [value] => 0015
+                                                                                    [attributes] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                        )
+
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [18] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}LegalMonetaryTotal
+                    [value] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}LineExtensionAmount
+                                    [value] => 24.94
+                                    [attributes] => Array
+                                        (
+                                            [currencyID] => TRY
+                                        )
+
+                                )
+
+                            [1] => Array
+                                (
+                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}TaxExclusiveAmount
+                                    [value] => 24.94
+                                    [attributes] => Array
+                                        (
+                                            [currencyID] => TRY
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}TaxInclusiveAmount
+                                    [value] => 24.94
+                                    [attributes] => Array
+                                        (
+                                            [currencyID] => TRY
+                                        )
+
+                                )
+
+                            [3] => Array
+                                (
+                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}PayableAmount
+                                    [value] => 24.94
+                                    [attributes] => Array
+                                        (
+                                            [currencyID] => TRY
+                                        )
+
+                                )
+
+                        )
+
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+            [19] => Array
+                (
+                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}InvoiceLine
+                    [value] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}ID
+                                    [value] => 1
+                                    [attributes] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [1] => Array
+                                (
+                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}InvoicedQuantity
+                                    [value] => 0.5
+                                    [attributes] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}LineExtensionAmount
+                                    [value] => 24.94
+                                    [attributes] => Array
+                                        (
+                                            [currencyID] => TRY
+                                        )
+
+                                )
+
+                            [3] => Array
+                                (
+                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}Item
+                                    [value] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}Name
+                                                    [value] => Tekel 2000 uzun mavi kutu
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [4] => Array
+                                (
+                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}Price
+                                    [value] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [name] => {urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}PriceAmount
+                                                    [value] => 49.87
+                                                    [attributes] => Array
+                                                        (
+                                                            [currencyID] => TRY
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [attributes] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [attributes] => Array
+        (
+            [{http://www.w3.org/2001/XMLSchema-instance}schemaLocation] => urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 ../xsdrt/maindoc/UBL-Invoice-2.1.xsd
+        )
+
+)

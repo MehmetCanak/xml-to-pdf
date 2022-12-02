@@ -15,6 +15,7 @@
 
     <a href="/xslt/html.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">HTML KAYDET</a>
     <a href="/xslt/pdf.php" class="btn btn-success btn-lg active" role="button" aria-pressed="true">PDF KAYDET</a>
+    <a href="/xslt/xmlParse.php" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">XML PARSE</a>
   <!-- Content here -->
 </div>
 </div>  

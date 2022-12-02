@@ -15,7 +15,6 @@ class pdf
             die;
         } 
         if($xml['path'] == null ||  $xml['fileName'] == null) {
-            custom_abort_('XML dosyası kaydedilemedi.');
             die;
         }
         $path = $xml['path'];
@@ -56,7 +55,6 @@ class pdf
             die;
         } 
         if($xml['path'] == null ||  $xml['fileName'] == null) {
-            custom_abort_('XML dosyası kaydedilemedi.');
             die;
         }
         $path = $xml['path'];

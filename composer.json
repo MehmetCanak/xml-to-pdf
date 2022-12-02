@@ -8,6 +8,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "barryvdh/laravel-dompdf": "2.0.x-dev"
+        "barryvdh/laravel-dompdf": "2.0.x-dev",
+        "ext-json": "*",
+        "sabre/xml": "dev-master"
     }
 }
