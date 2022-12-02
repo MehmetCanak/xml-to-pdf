@@ -1,6 +1,6 @@
 <?php
 
-namespace web36\EFatura;
+
 
 /**
  * All possible Unit Codes that can be used

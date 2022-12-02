@@ -1,6 +1,6 @@
 <?php 
 
-namespace web36\EFatura;
+
 use Sabre\Xml\Writer;
 use Sabre\Xml\XmlSerializable;
 

@@ -5,6 +5,9 @@ require __DIR__ . '/vendor/autoload.php';
 include 'vendor/autoload.php';
 
 use Sabre\Xml\Service;
+use Sabre\Xml\Reader;
+use Sabre\Xml\Writer;
+use Sabre\Xml\Element\KeyValue;
 
 class Parse
 {
@@ -18,10 +21,9 @@ class Parse
         $xml = simplexml_load_file($path);
         $xml = $inputdom->saveXML();
 
- 
         $xmlService = new Service();
 
-        $xmlService->namespaceMap = [
+        $xmlService->elementMap = [
             'urn:oasis:names:specification:ubl:schema:xsd:Invoice-2' => '',
             'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2' => 'cbc',
             'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2' => 'cac',
@@ -29,6 +31,33 @@ class Parse
             'http://www.altova.com/samplexml/other-namespace' => 'n4',
             'http://www.w3.org/2001/XMLSchema-instance' => 'xsi',
         ];
+
+        $reader = new Reader();
+        $invoice = new Invoice();
+        var_dump($reader);
+        die;
+        echo "XML: ";
+
+        // Borrowing a parser from the KeyValue class.
+        $keyValue = KeyValue::xmlDeserialize($reader);
+
+        if (isset($keyValue[Schema::CBC.'UBLVersionID'])) {
+            $invoice->UBLVersionID = $keyValue[Schema::CBC.'UBLVersionID'];
+        }
+        if (isset($keyValue['{http://example.org/books}author'])) {
+            $invoice->customizationID = $keyValue[Schema::CBC.'CustomizationID'];
+        }
+
+        $f = fopen("file5.txt", "w");
+        fwrite($f, print_r($invoice, true));
+        fclose($f);
+        var_dump($invoice);
+
+        die;
+
+        die;
+
+
         
 
         // $f = fopen("file.txt", "w");

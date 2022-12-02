@@ -1,15 +1,15 @@
 <?php
 
-namespace web36\EFatura;
 
 use Sabre\Xml\Writer;
 use Sabre\Xml\Reader;
 use Sabre\Xml\XmlSerializable;
+use Sabre\Xml\XmlDeserializable;
 
 use DateTime;
 use InvalidArgumentException;
 
-class Invoice implements XmlSerializable
+class Invoice implements XmlDeserializable
 {
     private $UBLExtensions;
     private $UBLVersionID = '2.1';

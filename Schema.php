@@ -1,6 +1,5 @@
 <?php
 
-namespace web36\EFatura;
 
 class Schema
 {

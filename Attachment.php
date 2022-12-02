@@ -1,6 +1,6 @@
 <?php
 
-namespace web36\EFatura;
+
 
 use Exception;
 use Sabre\Xml\Writer;

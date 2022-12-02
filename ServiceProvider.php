@@ -1,6 +1,6 @@
 <?php
 
-namespace web36\EFatura;
+
 
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
